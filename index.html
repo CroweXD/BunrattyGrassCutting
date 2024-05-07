@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunratty Grass cutting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .header {
+            display: flex; /* Enable flexbox layout */
+            justify-content: center; /* Center elements horizontally */
+            align-items: center; /* Optionally center elements vertically (if needed) */
+        }
+
+        .logo img {
+            width: 250px;  /* Set image width to 100% */
+            height: auto;
+            display: block;
+            background-color: #ffffff;
+            border-radius: 30px;
+        }
+
+        .logo {
+            margin: 0 auto;
+            position: absolute;
+            top: 20%; /* Position the top edge of the logo at the vertical center of the page */
+            left: 50%; /* Position the left edge of the logo at the horizontal center of the page */
+            transform: translate(-50%, -50%); /* Move the logo back by half of its own width and height to center it */
+            padding: 10px; /* Optional: Add padding for some space around the logo */
+        }
+
+        @media screen and (max-width: 768px) {
+            .logo {
+                width: 50%; /* Adjust the width for smaller screens */
+                padding: 5px; /* Adjust the padding for smaller screens */
+                padding-top: 50px;
+            }
+        }
+        
+        .banner h2 {
+            text-decoration: none;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+        color: white;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            border-bottom: 2px solid green;
+        }
+        
+        .card {
+            height: 100%;
+        }
+    
+        .banner {
+            background-image: url(images/lawn1.jpg);
+            background-size: cover;
+            
+            padding-bottom: 300px;
+            padding-top: 300px;
+        }
+
+        .banner h2 {
+            color: #ffffff;
+            font-size: 1.5rem; /* Use a relative font size */
+            margin: 0;
+            padding: 20px; /* Adjust the padding as needed */
+            text-decoration: none;
+        }
+    
+        .container {
+            padding: 10px;
+        }
+        .row img {
+            width: 100%;  /* Set image width to 100% */
+        }
+        .row {
+            margin-top: 200px;
+        }
+    
+        .col img {
+            height: 300px;
+            width: auto;
+        }
+        .card img {
+            height: 50px;
+            height: auto;
+        }
+
+        
+
+        .contact-us {
+            padding: 50px 0;
+        }
+        
+        .contact-us h2 {
+            margin-top: 50px;
+        }
+        
+        .contact-us h4 {
+            margin-top: 40px;
+        }
+        
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .footer p {
+            margin-bottom: 0;
+        }
+        
+        .map-container {
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .map-container img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            
+        }
+    
+
+    </style>
+</head>
+<body>
+    
+    
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bunratty Grass Cutting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    087 090 4185
+                </span>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="logo">
+            <img src="images/bcg-logo.png">
+        </div>
+    </header>
+    
+
+    <div class="banner text-center">
+        <h2>Welcome to <br>BUNRATTY GRASS CUTTING <br>087 090 4185</h2>
+    </div>
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h1  id="about" class="text-success" >About Bunratty Grass Cutting</h1>
+                <p class="text-muted" >Hello, I'm Padraig Crowe, the proud owner of Bunratty Grass Cutting. Our company specializes in providing top-notch garden maintenance services, including meticulous hedge trimming, precise grass cutting, and a comprehensive range of other garden care services.</p>
+                <p class="text-muted">My extensive knowledge and experience in garden maintenance and landscaping services are the bedrock of Bunratty Grass Cutting and Garden Maintenance. This business is more than a profession to me; it's a passion driven by a deep love for transforming and nurturing gardens.</p>
+                <p class="text-muted">Based in Bunratty, Co.Clare, we extend our services to nearby areas, ensuring that exceptional garden care is just a call away for everyone in the region.
+                <p class="text-muted">At Bunratty Grass Cutting and Garden Maintenance, we're committed to delivering high-quality gardening services at competitive prices. I personally guarantee the utmost care and high standards in maintaining your garden, ensuring results that not only meet but exceed your expectations.</p>
+                <p class="text-muted">Don't forget to check out our Facebook and Instagram pages for the latest updates and special gardening promotions.</p>    
+
+
+
+                </p>
+                <p class="text-muted"></p>
+            </div>
+            <div class="col">
+                
+                <img src="images/garden-pic3.jpeg">
+                <img src="images/garden-pic2.png">
+                
+                
+                
+            </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 id="services"  class="text-success" >Grass Cutting & Garden maintenence</h3>
+                <h5>Grass Cutting</h5>
+                <p class="text-muted" >Mowing not only maintains your lawn but promotes thicker, healthier growth by removing growth-suppressing tips from grass blades.
+                     We follow a smart mowing schedule, adapting to seasonal changes - bi-weekly in summer and less frequently in cooler months, ensuring optimal lawn health. 
+                     Occasional leaving of grass clippings enriches your lawn with natural nitrogen, fostering a lush, green appearance. Our precision equipment is meticulously 
+                     maintained for the highest quality cut. Trust us to give your lawn the expert care it deserves, all year round."</p>
+
+                <h5>Garden Maintenence</h5>
+                <p class="text-muted" >We focus on nurturing your plants, flowers, and shrubs, ensuring year-round flourishing. 
+                    We handle everything from pruning to soil health and seasonal planting, always with an eye for aesthetic harmony. 
+                    Trust us to keep your garden vibrant and healthy, creating a perfect green retreat or a stunning floral display, no matter the season."</p>
+            </div>
+            <div class="col">
+                <img src="images/newpic6.jpeg">
+                <p>Have a look at our <a href="https://www.facebook.com/profile.php?id=61556344880746" >Facebook</a> page and keep an eye on our grass cutting and any other gardening promotions.</p>
+            </div>    
+            <div class="w-100"></div>
+            
+        </div>
+
+        <!-- Gallery -->
+        
+
+        <div id="gallery" class="row">
+            <h2 class="text-success" >Gallery</h2>
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+                src="images/newpic1.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+            />
+        
+            <img
+                src="images/ig2.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Wintry Mountain Landscape"
+            />
+
+            <img
+                src="images/newpic4.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Wintry Mountain Landscape"
+            />
+
+            </div>
+        
+            <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                src="images/ig3.png"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Mountains in the Clouds"
+            />
+        
+            <img
+                src="images/ig4.png"  
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+            />
+
+            <img
+                src="images/newpic5.jpeg"  
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+            />
+
+            </div>
+        
+            <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                src="images/newpic2.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Waves at Sea"
+            />
+        
+            <img
+                src="images/ig6.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Yosemite National Park"
+            />
+
+            <img
+                src="images/newpic7.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Yosemite National Park"
+            />
+
+            </div>
+        </div>
+        <!-- Gallery -->
+
+
+        
+        <div class="container contact-us">
+            <h2 class="text-success">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <!-- Contact information -->
+                    
+                    <h4 class="text-success">Our Address</h4>
+                    <h5 class="text-muted" >Bunratty Co.Clare</h5>
+                    <br>
+                    <h4 class="text-success">Phone number</h4>
+                    <h5 class="text-muted" >087 090 4185</h5>
+                    <br>
+                    <h4 class="text-success">Social Media</h4>
+                    <a href="https://www.facebook.com/profile.php?id=61556344880746">Facebook</a>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0 map-container">
+                    <img src="images/map.png" class="img-fluid" alt="Map">
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>&copy; 2024 Bunratty Grass Cutting. All rights reserved.</p>
+        </footer>
+            
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+"></script>
+        
+</body>
+</html>
